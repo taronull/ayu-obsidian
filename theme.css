@@ -328,6 +328,10 @@ del:hover,
     background-color: rgb(var(--callout-color) / 0.1);
 }
 
+img {
+    border-radius: var(--radius-s);
+}
+
 /*
     Lora
 */
