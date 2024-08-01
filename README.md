@@ -4,7 +4,7 @@ Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian]
 
 # Ayu
 
-The original theme is by [Ike](https://github.com/dempfi). Check out [Ayu](https://github.com/ayu-theme) for more. This adaptation is based on [Ayu Colors](https://github.com/ayu-theme/ayu-colors). 
+This adaptation is based on [Ayu Colors](https://github.com/ayu-theme/ayu-colors). The original theme is by [Ike](https://dempfi.com/).
 
 # Fonts
 
