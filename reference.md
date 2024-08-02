@@ -67,23 +67,27 @@ Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec da
 
 ```elixir
 defmodule HelloWorld do
-  defstruct [:greet]
+  @greet "hello"
 
-  @greet "hello world"
+  def greet(whom \\ "world")
+  def greet("" <> whom), do: "#{@greet} #{name(whom)}"
 
-
-  def greet(), do: nil
-  def greet(num) when is_number(num), do: num + 1
-  def greet([_greet | world]), do: [:hello] ++ world
-
-  def greet(%HelloWorld{greet: greet}) do
-    pattern = ~r/hel{2}o\sworld/
-
-    if greet |> String.match?(pattern) do
-      @greet
+  def greet(whom) when is_list(whom) do
+    case count = count(whom) do
+      0 -> {:error, :no_one}
+      1 -> whom |> List.first() |> greet()
+      _ -> "#{@greet} #{count} people"
     end
   end
+
+  defp name(whom) do
+    Regex.run(~r/^\w+/, whom) |> List.first()
+  end
+
+  defp count([]), do: 0
+  defp count([_ | rest]), do: count(rest) + 1
 end
+
 ```
 
 #### Highlight

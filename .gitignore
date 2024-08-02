@@ -1,9 +1,12 @@
 # vscode
-.vscode 
+.vscode
 
 # Intellij
 *.iml
 .idea
+
+# Elixir artefact
+erl_crash.dump
 
 # npm
 node_modules
