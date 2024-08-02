@@ -1,6 +1,10 @@
-![Ayu Light/Mirage: an _elegant_ theme **paired** with Lora, Fira Code, and Iosevka Curly](cover.png "Ayu Obsidian")
+<img src="cover.png" alt="Ayu Light/Mirage: an _elegant_ theme **paired** with Lora, Fira Code, and Iosevka Curly" width="256"/>
 
 Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
+
+<a href="https://www.buymeacoffee.com/taronull">
+	<img src="https://img.buymeacoffee.com/button-api/?button_colour=f8f9fa&coffee_colour=f2ae49&outline_colour=5c6166&font_colour=86b300" />
+</a>
 
 # Installation
 
@@ -13,6 +17,8 @@ Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian]
 4. Find **Themes** section and click _Manage_
 5. Filter for ***Ayu Light & Mirage***
 6. Click _Install and use_
+
+Or, manually download this repo in your `.obsidian/themes`
 
 
 # Ayu
