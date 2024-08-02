@@ -6,8 +6,8 @@ body {
 
 .theme-dark {
   /*
-        Ayu Dark in RGBa
-    */
+  Ayu Dark in RGBa
+  */
   --syntax-tag: 57 186 230;
   --syntax-func: 255 180 84;
   --syntax-entity: 89 194 255;
@@ -43,7 +43,7 @@ body {
   --common-accent: 230 180 80;
   --common-error: 217 87 87;
   /*
-        App accent color from `common.accent`
+    App accent color from `common.accent`
     */
   --accent-h: 40;
   --accent-s: 75%;
@@ -52,8 +52,8 @@ body {
 
 .theme-dark {
   /*
-        Ayu Mirage in RGBa
-    */
+  Ayu Mirage in RGBa
+  */
   --syntax-tag: 92 207 230;
   --syntax-func: 255 208 115;
   --syntax-entity: 115 208 255;
@@ -89,8 +89,8 @@ body {
   --common-accent: 255 204 102;
   --common-error: 255 102 102;
   /*
-        App accent color from `common.accent`
-    */
+  App accent color from `common.accent`
+  */
   --accent-h: 40;
   --accent-s: 100%;
   --accent-l: 70%;
@@ -98,8 +98,8 @@ body {
 
 .theme-light {
   /*
-        Ayu Light in RGBa
-    */
+  Ayu Light in RGBa
+  */
   --syntax-tag: 85 180 212;
   --syntax-func: 242 174 73;
   --syntax-entity: 57 158 230;
@@ -135,8 +135,8 @@ body {
   --common-accent: 255 170 51;
   --common-error: 230 80 80;
   /*
-        App accent color from `common.accent`
-    */
+  App accent color from `common.accent`
+  */
   --accent-h: 35;
   --accent-s: 100%;
   --accent-l: 60%;
@@ -145,8 +145,8 @@ body {
 .theme-dark,
 .theme-light {
   /*
-        Foundation
-    */
+  Foundation
+  */
   --fg: rgb(var(--ui-fg));
   --bg: rgb(var(--ui-bg));
   --color-base-00: color-mix(in srgb, var(--bg), var(--fg) 0%);
@@ -219,7 +219,7 @@ body {
   --bold-color: rgb(var(--syntax-string));
   --bold-modifier: 100;
   /*
-        After app.css
+  After app.css
   */
   --checkbox-color: rgb(var(--syntax-operator));
   --checkbox-color-hover: rgb(var(--syntax-operator) / 0.8);
@@ -333,7 +333,7 @@ img {
 }
 
 /*
-    Lora
+Lora
 */
 @font-face {
   font-family: Lora;
@@ -343,7 +343,7 @@ img {
 }
 
 /*
-    Lora Italic
+Lora Italic
 */
 @font-face {
   font-family: Lora;
@@ -353,7 +353,7 @@ img {
 }
 
 /*
-    Fira Code
+Fira Code
 */
 @font-face {
   font-family: Fira Code;
@@ -363,7 +363,7 @@ img {
 }
 
 /*
-    Iosevka Curly
+Iosevka Curly
 */
 @font-face {
   font-family: Iosevka Curly;
@@ -373,7 +373,7 @@ img {
 }
 
 /*
-    Iosevka Curly Semibold
+Iosevka Curly Semibold
 */
 @font-face {
   font-family: Iosevka Curly;

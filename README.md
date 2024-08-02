@@ -25,13 +25,27 @@ Or, manually download this repo in your `.obsidian/themes`
 
 Colours are applied based on Obsidian semantics and appearance on code editors. Headings and indicators have warmer colours, while body emphasis are cooler.
 
-This theme uses **Ayu Light** and **Ayu Mirage**. But you also have **Ayu Dark** in `theme.css` in case you want to apply it yourself.
+This theme uses **Ayu Light** and **Ayu Mirage**. But you also have **Ayu Dark** in `theme.css` in case you want it. Simply remove Mirage to apply.
+
+```diff
+  .theme-dark {
+    /*
+    Ayu Dark in RGBa
+    */
+    ...
+  }
+
+- .theme-dark {
+-   /*
+-   Ayu Mirage in RGBa
+-   */
+-   ...
+- }
+```
 
 This adaptation is based on [Ayu Colors](https://github.com/ayu-theme/ayu-colors). The original theme is by [Ike](https://dempfi.com/).
 
 # Fonts
-
-Lora Italic sets the mood as inline title, heading 2 and heading 5.
 
 - [Lora](http://cyreal.org/fonts/lora/) by [Cyreal](http://cyreal.org/)
 - [Fira Code](https://firacode.org/) by [Niki](https://tonsky.me/)
