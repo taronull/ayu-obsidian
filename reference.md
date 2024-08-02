@@ -87,7 +87,6 @@ defmodule HelloWorld do
   defp count([]), do: 0
   defp count([_ | rest]), do: count(rest) + 1
 end
-
 ```
 
 #### Highlight
@@ -141,7 +140,7 @@ term
 
 #### Block reference
 
-![[Markdown#^block]]
+![[#^block]]
 
 I am a block! ^block
 
