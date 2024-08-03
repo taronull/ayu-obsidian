@@ -191,7 +191,7 @@ body {
   --background-modifier-error-hover: rgb(var(--vcs-removed) / 0.8);
   --background-modifier-success-rgb: var(--vcs-added);
   --background-modifier-success: rgb(var(--vcs-added));
-  --background-modifier-message: rgb(var(--ui-panel-bg));
+  --background-modifier-message: rgb(var(--vcs-modified));
   --background-modifier-form-field: rgb(var(--ui-selection-normal));
   --interactive-normal: rgb(var(--ui-selection-normal));
   --interactive-hover: rgb(var(--ui-selection-active));
@@ -334,7 +334,15 @@ del:hover,
 
 .notice,
 .tooltip {
-  color: rgb(var(--ui-fg));
+  color: rgb(var(--ui-bg));
+}
+
+.notice.mod-success {
+  background-color: var(--background-modifier-success);
+}
+
+.notice.mod-error {
+  background-color: var(--background-modifier-error);
 }
 
 /*
