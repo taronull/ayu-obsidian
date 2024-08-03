@@ -282,6 +282,10 @@ body {
   --tag-background-hover: rgb(var(--syntax-tag) / 0.2);
 }
 
+img {
+  border-radius: var(--radius-s);
+}
+
 h6,
 .cm-header-6 {
   text-transform: uppercase;
@@ -328,8 +332,8 @@ del:hover,
   background-color: rgb(var(--callout-color) / 0.1);
 }
 
-img {
-  border-radius: var(--radius-s);
+.tooltip {
+  color: rgb(var(--ui-fg));
 }
 
 /*
