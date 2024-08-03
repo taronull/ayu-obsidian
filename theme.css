@@ -332,6 +332,7 @@ del:hover,
   background-color: rgb(var(--callout-color) / 0.1);
 }
 
+.notice,
 .tooltip {
   color: rgb(var(--ui-fg));
 }
