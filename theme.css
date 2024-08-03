@@ -273,6 +273,7 @@ body {
   --link-decoration-hover: none;
   --link-external-decoration: none;
   --link-external-decoration-hover: none;
+  --list-indent: 1.5em;
   --list-marker-color: rgb(var(--syntax-operator));
   --list-marker-color-hover: rgb(var(--syntax-operator) / 0.8);
   --list-marker-color-collapsed: rgb(var(--syntax-operator) / 0.6);
