@@ -6,8 +6,8 @@ body {
 
 .theme-dark {
   /*
-  Ayu Dark in RGBa
-  */
+    Ayu Dark in RGBa
+    */
   --syntax-tag: 57 186 230;
   --syntax-func: 255 180 84;
   --syntax-entity: 89 194 255;
@@ -31,8 +31,8 @@ body {
   --editor-match-inactive: 108 89 128 / 0.4;
   --editor-gutter-active: 108 115 128 / 0.9;
   --editor-gutter-normal: 108 115 128 / 0.6;
-  --editor-indentGuide-active: 108 115 128 / 0.5;
-  --editor-indentGuide-normal: 108 115 128 / 0.2;
+  --editor-guide-active: 108 115 128 / 0.5;
+  --editor-guide-normal: 108 115 128 / 0.2;
   --ui-fg: 86 91 102;
   --ui-bg: 11 14 20;
   --ui-line: 17 21 28;
@@ -42,9 +42,7 @@ body {
   --ui-panel-shadow: 0 0 0 / 0.5;
   --common-accent: 230 180 80;
   --common-error: 217 87 87;
-  /*
-    App accent color from `common.accent`
-    */
+  /* App accent color from `common.accent` */
   --accent-h: 40;
   --accent-s: 75%;
   --accent-l: 61%;
@@ -52,8 +50,8 @@ body {
 
 .theme-dark {
   /*
-  Ayu Mirage in RGBa
-  */
+    Ayu Mirage in RGBa
+    */
   --syntax-tag: 92 207 230;
   --syntax-func: 255 208 115;
   --syntax-entity: 115 208 255;
@@ -77,8 +75,8 @@ body {
   --editor-match-inactive: 105 83 128 / 0.4;
   --editor-gutter-active: 138 145 153 / 0.8;
   --editor-gutter-normal: 138 145 153 / 0.4;
-  --editor-indentGuide-active: 138 145 153 / 0.35;
-  --editor-indentGuide-normal: 138 145 153 / 0.18;
+  --editor-guide-active: 138 145 153 / 0.35;
+  --editor-guide-normal: 138 145 153 / 0.18;
   --ui-fg: 112 122 140;
   --ui-bg: 31 36 48;
   --ui-line: 23 27 36;
@@ -88,9 +86,7 @@ body {
   --ui-panel-shadow: 18 21 28 / 0.7;
   --common-accent: 255 204 102;
   --common-error: 255 102 102;
-  /*
-  App accent color from `common.accent`
-  */
+  /* App accent color from `common.accent` */
   --accent-h: 40;
   --accent-s: 100%;
   --accent-l: 70%;
@@ -98,8 +94,8 @@ body {
 
 .theme-light {
   /*
-  Ayu Light in RGBa
-  */
+    Ayu Light in RGBa
+    */
   --syntax-tag: 85 180 212;
   --syntax-func: 242 174 73;
   --syntax-entity: 57 158 230;
@@ -123,8 +119,8 @@ body {
   --editor-match-inactive: 159 64 255 / 0.8;
   --editor-gutter-active: 138 145 153 / 0.8;
   --editor-gutter-normal: 138 145 153 / 0.4;
-  --editor-indentGuide-active: 138 145 153 / 0.35;
-  --editor-indentGuide-normal: 138 145 153 / 0.18;
+  --editor-guide-active: 138 145 153 / 0.35;
+  --editor-guide-normal: 138 145 153 / 0.18;
   --ui-fg: 138 145 153;
   --ui-bg: 248 249 250;
   --ui-line: 107 125 143 / 0.12;
@@ -134,33 +130,30 @@ body {
   --ui-panel-shadow: 0 0 0 / 0.15;
   --common-accent: 255 170 51;
   --common-error: 230 80 80;
-  /*
-  App accent color from `common.accent`
-  */
+  /* App accent color from `common.accent` */
   --accent-h: 35;
   --accent-s: 100%;
   --accent-l: 60%;
 }
 
-.theme-dark,
-.theme-light {
+.obsidian-app {
   /*
-  Foundation
-  */
-  --fg: rgb(var(--ui-fg));
-  --bg: rgb(var(--ui-bg));
-  --color-base-00: color-mix(in srgb, var(--bg), var(--fg) 0%);
-  --color-base-05: color-mix(in srgb, var(--bg), var(--fg) 5%);
-  --color-base-10: color-mix(in srgb, var(--bg), var(--fg) 10%);
-  --color-base-20: color-mix(in srgb, var(--bg), var(--fg) 20%);
-  --color-base-25: color-mix(in srgb, var(--bg), var(--fg) 25%);
-  --color-base-30: color-mix(in srgb, var(--bg), var(--fg) 30%);
-  --color-base-35: color-mix(in srgb, var(--bg), var(--fg) 35%);
-  --color-base-40: color-mix(in srgb, var(--bg), var(--fg) 40%);
-  --color-base-50: color-mix(in srgb, var(--bg), var(--fg) 50%);
-  --color-base-60: color-mix(in srgb, var(--bg), var(--fg) 60%);
-  --color-base-70: color-mix(in srgb, var(--bg), var(--fg) 70%);
-  --color-base-100: color-mix(in srgb, var(--bg), var(--fg) 100%);
+    Foundation
+    */
+  --text: rgb(var(--ui-fg));
+  --fill: rgb(var(--ui-bg));
+  --color-base-00: color-mix(in srgb, var(--fill), var(--text) 0%);
+  --color-base-05: color-mix(in srgb, var(--fill), var(--text) 5%);
+  --color-base-10: color-mix(in srgb, var(--fill), var(--text) 10%);
+  --color-base-20: color-mix(in srgb, var(--fill), var(--text) 20%);
+  --color-base-25: color-mix(in srgb, var(--fill), var(--text) 25%);
+  --color-base-30: color-mix(in srgb, var(--fill), var(--text) 30%);
+  --color-base-35: color-mix(in srgb, var(--fill), var(--text) 35%);
+  --color-base-40: color-mix(in srgb, var(--fill), var(--text) 40%);
+  --color-base-50: color-mix(in srgb, var(--fill), var(--text) 50%);
+  --color-base-60: color-mix(in srgb, var(--fill), var(--text) 60%);
+  --color-base-70: color-mix(in srgb, var(--fill), var(--text) 70%);
+  --color-base-100: color-mix(in srgb, var(--fill), var(--text) 100%);
   --color-red-rgb: var(--syntax-markup);
   --color-orange-rgb: var(--syntax-keyword);
   --color-yellow-rgb: var(--syntax-func);
@@ -199,8 +192,8 @@ body {
   --interactive-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
   --interactive-accent-hover: rgb(var(--common-accent) / 0.8);
   --text-normal: rgb(var(--editor-fg));
-  --text-muted: rgb(var(--ui-fg));
-  --text-faint: rgb(var(--syntax-comment));
+  --text-muted: rgb(var(--syntax-comment));
+  --text-faint: rgb(var(--editor-gutter-normal));
   --text-on-accent: rgb(var(--ui-bg));
   --text-on-accent-inverted: rgb(var(--ui-fg));
   --text-success: rgb(var(--vcs-added));
@@ -212,19 +205,25 @@ body {
   --text-highlight-bg: rgb(var(--editor-match-active));
   --caret-color: rgb(var(--vcs-modified));
   --icon-color: rgb(var(--ui-fg));
-  --icon-color-hover: rgb(var(--editor-fg));
-  --icon-color-active: rgb(var(--ui-fg));
-  --icon-color-focused: rgb(var(--editor-fg));
-  --italic-color: rgb(var(--syntax-constant));
-  --bold-color: rgb(var(--syntax-string));
+  --icon-color-hover: rgb(var(--ui-fg) / 0.8);
+  --icon-color-active: var(--color-accent-1);
+  --icon-color-focused: var(--color-accent-2);
+  --italic-color: var(--color-purple);
+  --bold-color: var(--color-green);
   --bold-modifier: 100;
   /*
-  After app.css
-  */
+    Components
+    */
   --checkbox-color: rgb(var(--syntax-operator));
   --checkbox-color-hover: rgb(var(--syntax-operator) / 0.8);
-  --checklist-done-decoration: line-through rgb(var(--syntax-comment));
-  --checklist-done-color: rgb(var(--ui-fg));
+  --checklist-done-decoration: none;
+  --checklist-done-color: rgb(var(--syntax-comment));
+  --indentation-guide-color: rgb(var(--editor-guide-normal));
+  --indentation-guide-color-active: rgb(var(--editor-guide-active));
+  /*
+    Editor
+    */
+  --callout-quote: var(--editor-fg);
   --code-normal: rgb(var(--editor-fg));
   --code-comment: rgb(var(--syntax-comment));
   --code-function: rgb(var(--syntax-func));
@@ -236,11 +235,6 @@ body {
   --code-string: rgb(var(--syntax-string));
   --code-tag: rgb(var(--syntax-tag));
   --code-value: rgb(var(--syntax-constant));
-  --collapse-icon-color-collapse: rgb(var(--syntax-operator));
-  --inline-title-size: 2.4em;
-  --inline-title-weight: bold;
-  --inline-title-style: italic;
-  --inline-title-color: rgb(var(--syntax-entity));
   --h1-color: rgb(var(--syntax-keyword));
   --h2-color: rgb(var(--syntax-func));
   --h3-color: rgb(var(--syntax-special));
@@ -267,8 +261,10 @@ body {
   --h4-weight: 500;
   --h5-weight: 600;
   --h6-weight: 700;
-  --indentation-guide-color: rgb(var(--editor-indentGuide-normal));
-  --indentation-guide-color-active: rgb(var(--editor-indentGuide-active));
+  --inline-title-size: 2.4em;
+  --inline-title-weight: bold;
+  --inline-title-style: italic;
+  --inline-title-color: rgb(var(--syntax-entity));
   --link-decoration: none;
   --link-decoration-hover: none;
   --link-external-decoration: none;
@@ -276,15 +272,22 @@ body {
   --list-indent: 2em;
   --list-marker-color: rgb(var(--syntax-operator));
   --list-marker-color-hover: rgb(var(--syntax-operator) / 0.8);
-  --list-marker-color-collapsed: rgb(var(--syntax-operator) / 0.6);
+  --list-marker-color-collapsed: rgb(var(--syntax-operator) / 0.4);
   --tag-color: rgb(var(--syntax-tag));
   --tag-color-hover: rgb(var(--syntax-tag) / 0.8);
-  --tag-background: rgb(var(--syntax-tag) / 0.1);
-  --tag-background-hover: rgb(var(--syntax-tag) / 0.2);
+  --tag-background: rgb(var(--syntax-tag) / 0.2);
+  --tag-background-hover: rgb(var(--syntax-tag) / 0.4);
 }
 
-img {
-  border-radius: var(--radius-s);
+.markdown-rendered {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: var(--heading-spacing);
+  }
 }
 
 h6,
@@ -292,18 +295,23 @@ h6,
   text-transform: uppercase;
 }
 
-.cm-s-obsidian .cm-quote.cm-em {
-  color: var(--italic-color);
+img {
+  border-radius: var(--radius-s);
 }
 
-.cm-s-obsidian .cm-quote.cm-strong {
-  color: var(--bold-color);
+.cm-s-obsidian .cm-quote {
+  &.cm-em {
+    color: var(--italic-color);
+  }
+  &.cm-strong {
+    color: var(--bold-color);
+  }
 }
 
 em strong,
 strong em,
 .cm-s-obsidian .cm-em.cm-strong {
-  color: rgb(var(--syntax-regexp));
+  color: var(--color-cyan);
 }
 
 mark,
@@ -314,13 +322,8 @@ mark,
 
 del,
 .cm-strikethrough {
-  color: rgb(var(--syntax-markup));
-  text-decoration: line-through rgb(var(--syntax-markup) / 0.6);
-}
-
-del:hover,
-.cm-strikethrough:hover {
-  text-decoration: line-through rgb(var(--syntax-markup) / 0.4);
+  color: var(--color-red);
+  text-decoration: line-through rgb(var(--color-red-rgb) / 0.8);
 }
 
 .cm-formatting-strikethrough {
@@ -329,26 +332,58 @@ del:hover,
 
 .callout {
   /* Overrides legacy syntax. */
-  --callout-quote: var(--editor-fg);
   background-color: rgb(var(--callout-color) / 0.1);
 }
 
 .notice,
 .tooltip {
-  color: rgb(var(--ui-bg));
+  color: var(--fill);
+  background-color: var(--background-modifier-message);
+
+  &.mod-success {
+    background-color: var(--background-modifier-success);
+  }
+  &.mod-error {
+    background-color: var(--background-modifier-error);
+  }
 }
 
-.notice.mod-success {
-  background-color: var(--background-modifier-success);
-}
+.mermaid {
+  --background-modifier-border: rgb(var(--ui-fg));
+  --background-secondary-alt: rgb(var(--ui-panel-bg));
 
-.notice.mod-error {
-  background-color: var(--background-modifier-error);
+  line {
+    stroke: var(--background-modifier-border) !important;
+  }
+
+  .loopText tspan {
+    fill: var(--text-muted) !important;
+  }
+
+  .exclude-range {
+    fill: var(--text-faint) !important;
+  }
+
+  .branchLabel text {
+    fill: var(--text-on-accent) !important;
+  }
+
+  .quadrant rect {
+    fill: var(--background-secondary-alt);
+  }
+
+  .background {
+    fill: var(--background-secondary-alt);
+  }
+
+  .plot {
+    --background-accent: var(--color-accent);
+  }
 }
 
 /*
-Lora
-*/
+  Lora
+  */
 @font-face {
   font-family: Lora;
   font-weight: 400 700;
@@ -357,8 +392,8 @@ Lora
 }
 
 /*
-Lora Italic
-*/
+  Lora Italic
+  */
 @font-face {
   font-family: Lora;
   font-weight: 400 700;
@@ -367,8 +402,8 @@ Lora Italic
 }
 
 /*
-Fira Code
-*/
+  Fira Code
+  */
 @font-face {
   font-family: Fira Code;
   font-weight: 300 700;
@@ -377,8 +412,8 @@ Fira Code
 }
 
 /*
-Iosevka Curly
-*/
+  Iosevka Curly
+  */
 @font-face {
   font-family: Iosevka Curly;
   font-weight: normal;
@@ -387,8 +422,8 @@ Iosevka Curly
 }
 
 /*
-Iosevka Curly Semibold
-*/
+  Iosevka Curly Semibold
+  */
 @font-face {
   font-family: Iosevka Curly;
   font-weight: 600;
