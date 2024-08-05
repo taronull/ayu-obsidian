@@ -185,6 +185,9 @@ body {
   --background-modifier-success-rgb: var(--vcs-added);
   --background-modifier-success: rgb(var(--vcs-added));
   --background-modifier-message: rgb(var(--vcs-modified));
+  &.is-mobile.theme-dark {
+    --background-modifier-message: rgb(var(--vcs-modified));
+  }
   --background-modifier-form-field: rgb(var(--ui-selection-normal));
   --interactive-normal: rgb(var(--ui-selection-normal));
   --interactive-hover: rgb(var(--ui-selection-active));
@@ -206,8 +209,8 @@ body {
   --caret-color: rgb(var(--vcs-modified));
   --icon-color: rgb(var(--ui-fg));
   --icon-color-hover: rgb(var(--ui-fg) / 0.8);
-  --icon-color-active: var(--color-accent-1);
-  --icon-color-focused: var(--color-accent-2);
+  --icon-color-active: var(--color-accent);
+  --icon-color-focused: var(--color-accent-1);
   --italic-color: var(--color-purple);
   --bold-color: var(--color-green);
   --bold-modifier: 100;
