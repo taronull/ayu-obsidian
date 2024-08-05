@@ -280,7 +280,7 @@ body {
   /*
     Window
     */
-  --titlebar-background: var(--background-secondary-alt);
+  --titlebar-background: var(--background-secondary);
   --titlebar-background-focused: var(--background-secondary);
 }
 
