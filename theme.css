@@ -277,6 +277,11 @@ body {
   --tag-color-hover: rgb(var(--syntax-tag) / 0.8);
   --tag-background: rgb(var(--syntax-tag) / 0.2);
   --tag-background-hover: rgb(var(--syntax-tag) / 0.4);
+  /*
+    Window
+    */
+  --titlebar-background: var(--background-secondary-alt);
+  --titlebar-background-focused: var(--background-secondary);
 }
 
 .markdown-rendered {
@@ -346,6 +351,11 @@ del,
   &.mod-error {
     background-color: var(--background-modifier-error);
   }
+}
+
+.workspace-tab-header.is-active.mod-active.tappable
+  .workspace-tab-header-inner-icon {
+  color: var(--color-accent);
 }
 
 .mermaid {
