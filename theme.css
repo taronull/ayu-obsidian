@@ -4,7 +4,7 @@ body {
   --font-interface-theme: Iosevka Curly;
 }
 
-.ayu-dark {
+.theme-dark {
   /*
     Ayu Dark in RGBa
     */
@@ -171,9 +171,9 @@ body {
   --color-purple: rgb(var(--color-purple-rgb));
   --color-pink: rgb(var(--color-pink-rgb));
   --background-primary: rgb(var(--editor-bg));
-  --background-primary-alt: rgb(var(--editor-line));
+  --background-primary-alt: rgb(var(--ui-panel-bg));
   --background-secondary: rgb(var(--ui-bg));
-  --background-secondary-alt: rgb(var(--ui-line));
+  --background-secondary-alt: rgb(var(--ui-panel-bg));
   --background-modifier-hover: rgb(var(--ui-selection-normal));
   --background-modifier-active-hover: rgb(var(--ui-selection-active));
   --background-modifier-border: rgb(var(--ui-line));
@@ -184,7 +184,7 @@ body {
   --background-modifier-error-hover: rgb(var(--vcs-removed) / 0.8);
   --background-modifier-success-rgb: var(--vcs-added);
   --background-modifier-success: rgb(var(--vcs-added));
-  --background-modifier-message: rgb(var(--vcs-modified));
+  &,
   &.is-mobile.theme-dark {
     --background-modifier-message: rgb(var(--vcs-modified));
   }
@@ -209,8 +209,8 @@ body {
   --caret-color: rgb(var(--vcs-modified));
   --icon-color: rgb(var(--ui-fg));
   --icon-color-hover: rgb(var(--ui-fg) / 0.8);
-  --icon-color-active: var(--color-accent);
-  --icon-color-focused: var(--color-accent-1);
+  --icon-color-active: var(--color-accent-1);
+  --icon-color-focused: var(--color-accent-2);
   --italic-color: var(--color-purple);
   --bold-color: var(--color-green);
   --bold-modifier: 100;
@@ -226,7 +226,7 @@ body {
   /*
     Editor
     */
-  --callout-quote: var(--editor-fg);
+  --callout-quote: var(--ui-fg);
   --code-normal: rgb(var(--editor-fg));
   --code-comment: rgb(var(--syntax-comment));
   --code-function: rgb(var(--syntax-func));
@@ -283,8 +283,6 @@ body {
   /*
     Window
     */
-  --titlebar-background: var(--background-secondary);
-  --titlebar-background-focused: var(--background-secondary);
   &.is-focused
     .workspace-tab-header.mod-active
     .workspace-tab-header-inner-icon {
@@ -354,8 +352,7 @@ del,
 }
 
 .mermaid {
-  --background-modifier-border: rgb(var(--ui-fg));
-  --background-secondary-alt: rgb(var(--ui-panel-bg));
+  --background-modifier-border: rgb(var(--editor-gutter-normal));
 
   line {
     stroke: var(--background-modifier-border) !important;
