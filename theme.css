@@ -4,7 +4,7 @@ body {
   --font-interface-theme: Iosevka Curly;
 }
 
-.theme-dark {
+.ayu-dark {
   /*
     Ayu Dark in RGBa
     */
@@ -292,17 +292,6 @@ body {
   }
   &:not(.is-focused) .workspace-tab-header .workspace-tab-header-inner-icon {
     color: var(--text-faint);
-  }
-}
-
-.markdown-rendered {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: var(--heading-spacing);
   }
 }
 
