@@ -1,11 +1,11 @@
-<img src="images/light.png" alt="Ayu Light" width="360"/>
-<img src="images/mirage.png" alt="Ayu Light" width="360"/>
-<img src="images/dark.png" alt="Ayu Light" width="360"/>
+<img src="cover.png" alt="Ayu Light/Mirage: an elegant theme paired with Lora, Fira Code, and Iosevka Curly" width="280"/>
 
 Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
 
-<a href="https://www.buymeacoffee.com/taronull">
-	<img src="https://img.buymeacoffee.com/button-api/?button_colour=242936&coffee_colour=FFD173&outline_colour=CCCAC2&font_colour=D5FF80" />
+Like it?
+
+<a href="https://www.buymeacoffee.com/taronull" target="_blank">
+	<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60">
 </a>
 
 # Installation
@@ -24,6 +24,12 @@ Or, manually download this repo in your `.obsidian/themes`
 
 
 # Ayu
+
+<div style="display: flex;">
+	<img src="images/light.png" alt="Ayu Light" width="300"/>
+	<img src="images/mirage.png" alt="Ayu Light" width="300"/>
+	<img src="images/dark.png" alt="Ayu Light" width="300"/>
+</div>
 
 Colours are applied based on Obsidian semantics and appearance on code editors. Headings and indicators have warmer colours, while body emphasis are cooler.
 
@@ -49,9 +55,11 @@ This adaptation is based on [Ayu Colors](https://github.com/ayu-theme/ayu-colors
 
 # Fonts
 
-- [Lora](http://cyreal.org/fonts/lora/) by [Cyreal](http://cyreal.org/)
-- [Fira Code](https://firacode.org/) by [Niki](https://tonsky.me/)
-- [Iosevka Curly](https://typeof.net/Iosevka/) by [Renzhi Li](https://typeof.net/)
+Fonts are included in the `theme.css` as data URLs.
+
+- [Lora](http://cyreal.org/fonts/lora/) by [Cyreal](http://cyreal.org/) for markdown editor text
+- [Fira Code](https://firacode.org/) by [Niki](https://tonsky.me/) for fixed-width text
+- [Iosevka Curly](https://typeof.net/Iosevka/) by [Renzhi Li](https://typeof.net/) for app interface
   - WOFF2 version from [Fontsource](https://fontsource.org/fonts/iosevka-curly)
 
 # Versioning
