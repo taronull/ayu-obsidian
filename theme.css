@@ -209,8 +209,8 @@ body {
   --caret-color: rgb(var(--vcs-modified));
   --icon-color: rgb(var(--ui-fg));
   --icon-color-hover: rgb(var(--ui-fg) / 0.8);
-  --icon-color-active: var(--color-accent-1);
-  --icon-color-focused: var(--color-accent-2);
+  --icon-color-active: var(--color-accent);
+  --icon-color-focused: var(--color-accent-1);
   --italic-color: var(--color-purple);
   --bold-color: var(--color-green);
   --bold-modifier: 100;
@@ -226,7 +226,8 @@ body {
   /*
     Editor
     */
-  --callout-quote: var(--ui-fg);
+  --blockquote-border-color: rgb(var(--syntax-operator));
+  --callout-quote: var(--editor-fg);
   --code-normal: rgb(var(--editor-fg));
   --code-comment: rgb(var(--syntax-comment));
   --code-function: rgb(var(--syntax-func));
