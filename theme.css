@@ -317,19 +317,33 @@ strong em,
   color: var(--color-cyan);
 }
 
-mark,
-.cm-highlight:not(.cm-formatting):not(:has(+ .cm-highlight)) {
-  border-radius: 0.8ex;
-  padding-inline: 0.2ch;
+.markdown-rendered code:not(pre > code),
+.cm-s-obsidian span.cm-inline-code {
+  color: rgb(var(--syntax-markup));
+}
+
+.markdown-rendered mark,
+.cm-s-obsidian span.cm-highlight {
+  color: rgb(var(--vcs-added));
+  background-color: rgb(var(--vcs-added) / 0.2);
+  &:not(.cm-formatting):not(:has(+ .cm-highlight)) {
+    border-radius: 0.5ex;
+  }
 }
 
 del,
 .cm-strikethrough {
-  color: var(--color-red);
-  text-decoration: line-through rgb(var(--color-red-rgb) / 0.8);
+  color: rgb(var(--vcs-removed));
+  background-color: rgb(var(--vcs-removed) / 0.2);
+  text-decoration: line-through wavy rgb(var(--vcs-removed) / 0.8);
+  text-decoration-thickness: from-font;
+  &:not(.cm-formatting):not(:has(+ .cm-strikethrough)) {
+    border-radius: 0.5ex;
+  }
 }
 
-.cm-formatting-strikethrough {
+.cm-formatting-strikethrough,
+.cm-strikethrough:has(+ .cm-formatting-strikethrough) {
   text-decoration: none;
 }
 
