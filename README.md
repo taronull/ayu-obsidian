@@ -1,4 +1,6 @@
-<img src="cover.png" alt="Ayu Light/Mirage: an _elegant_ theme **paired** with Lora, Fira Code, and Iosevka Curly" width="256"/>
+<img src="images/light.png" alt="Ayu Light" width="360"/>
+<img src="images/mirage.png" alt="Ayu Light" width="360"/>
+<img src="images/dark.png" alt="Ayu Light" width="360"/>
 
 Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
 
