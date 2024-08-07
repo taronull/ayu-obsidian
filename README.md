@@ -26,9 +26,9 @@ Or, manually download this repo in your `.obsidian/themes`
 # Ayu
 
 <div style="display: flex;">
-	<img src="images/light.png" alt="Ayu Light" width="300"/>
-	<img src="images/mirage.png" alt="Ayu Light" width="300"/>
-	<img src="images/dark.png" alt="Ayu Light" width="300"/>
+	<img src="images/light.png" alt="Ayu Light" width="280"/>
+	<img src="images/mirage.png" alt="Ayu Light" width="280"/>
+	<img src="images/dark.png" alt="Ayu Light" width="280"/>
 </div>
 
 Colours are applied based on Obsidian semantics and appearance on code editors. Headings and indicators have warmer colours, while body emphasis are cooler.
