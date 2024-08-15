@@ -1,13 +1,9 @@
-<img src="cover.png" alt="Ayu Obsidian Light & Mirage icons" width="256"/>
+<img src="cover.png" alt="Ayu Light/Mirage: an elegant theme paired with Lora, Fira Code, and Iosevka Curly" width="256" />
 
 **Ayu Obsidian** is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
 
-<img src="images/mock-up.png" alt="Ayu Light/Mirage: an elegant theme paired with Lora, Fira Code, and Iosevka Curly" width="256"/>
-
-Like it?
-
 <a href="https://www.buymeacoffee.com/taronull" target="_blank">
-	<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60">
+	<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" />
 </a>
 
 # Installation
@@ -27,9 +23,9 @@ Or, manually download this repo in your `.obsidian/themes`
 # Icons
 
 <div style="display: flex; gap: 1rem">
-	<img src="icons/light.png" alt="Ayu Light icon" width="128"/>
-	<img src="icons/mirage.png" alt="Ayu Mirage icon" width="128"/>
-	<img src="icons/dark.png" alt="Ayu Dark icon" width="128"/>
+	<img src="icons/light.png" alt="Ayu Light icon" width="128" />
+	<img src="icons/mirage.png" alt="Ayu Mirage icon" width="128" />
+	<img src="icons/dark.png" alt="Ayu Dark icon" width="128" />
 </div>
 
 Change your Obsidian app icon in **Options**-**Appearance**-**Advanced**-**Custom app icon**
@@ -37,9 +33,9 @@ Change your Obsidian app icon in **Options**-**Appearance**-**Advanced**-**Custo
 # Colours
 
 <div style="display: flex;">
-	<img src="images/light.png" alt="Ayu Obsidian Light screenshot" width="256"/>
-	<img src="images/mirage.png" alt="Ayu Obsidian Mirage screenshot" width="256"/>
-	<img src="images/dark.png" alt="Ayu Obsidian Dark screenshot" width="256"/>
+	<img src="images/light.png" alt="Ayu Obsidian Light screenshot" width="256" />
+	<img src="images/mirage.png" alt="Ayu Obsidian Mirage screenshot" width="256" />
+	<img src="images/dark.png" alt="Ayu Obsidian Dark screenshot" width="256" />
 </div>
 
 Colours are applied based on Obsidian semantics and appearance on code editors.
