@@ -325,7 +325,6 @@ strong em,
 
 .markdown-rendered mark,
 .cm-s-obsidian span.cm-highlight {
-  color: rgb(var(--vcs-added));
   background-color: rgb(var(--vcs-added) / 0.2);
   &:not(.cm-formatting):not(:has(+ .cm-highlight)) {
     border-radius: 0.5ex;
@@ -334,7 +333,6 @@ strong em,
 
 del,
 .cm-strikethrough {
-  color: rgb(var(--vcs-removed));
   background-color: rgb(var(--vcs-removed) / 0.2);
   text-decoration: line-through wavy rgb(var(--vcs-removed) / 0.8);
   text-decoration-thickness: from-font;

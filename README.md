@@ -1,6 +1,8 @@
-<img src="cover.png" alt="Ayu Light/Mirage: an elegant theme paired with Lora, Fira Code, and Iosevka Curly" width="260"/>
+<img src="cover.png" alt="Ayu Obsidian Light & Mirage icons" width="256"/>
 
-Ayu Obsidian is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
+**Ayu Obsidian** is an [Ayu](https://github.com/ayu-theme) adaptation for [Obsidian](https://obsidian.md/) paired with a font selection.
+
+<img src="images/mock-up.png" alt="Ayu Light/Mirage: an elegant theme paired with Lora, Fira Code, and Iosevka Curly" width="256"/>
 
 Like it?
 
@@ -22,18 +24,30 @@ Like it?
 
 Or, manually download this repo in your `.obsidian/themes`
 
-
-# Ayu
+# Icons
 
 <div style="display: flex;">
-	<img src="images/light.png" alt="Ayu Light" width="260"/>
-	<img src="images/mirage.png" alt="Ayu Light" width="260"/>
-	<img src="images/dark.png" alt="Ayu Light" width="260"/>
+	<img src="icons/light.png" alt="Ayu Light icon" width="256"/>
+	<img src="icons/mirage.png" alt="Ayu Mirage icon" width="256"/>
+	<img src="icons/dark.png" alt="Ayu Dark icon" width="256"/>
 </div>
 
-Colours are applied based on Obsidian semantics and appearance on code editors. Headings and indicators have warmer colours, while body emphasis are cooler.
+Change your Obsidian app icon in **Options**-**Appearance**-**Advanced**-**Custom app icon**
 
-This theme uses **Ayu Light** and **Ayu Mirage**. But you also have **Ayu Dark** in `theme.css` in case you want it. Simply remove Mirage to apply.
+# Colours
+
+<div style="display: flex;">
+	<img src="images/light.png" alt="Ayu Obsidian Light screenshot" width="256"/>
+	<img src="images/mirage.png" alt="Ayu Obsidian Mirage screenshot" width="256"/>
+	<img src="images/dark.png" alt="Ayu Obsidian Dark screenshot" width="256"/>
+</div>
+
+Colours are applied based on Obsidian semantics and appearance on code editors.
+Headings and indicators have warmer colours, while body emphasis are cooler.
+
+This theme presents Ayu Light and Ayu Mirage by default.
+You also have **Ayu Dark** in `theme.css` in case you want it.
+Simply remove Mirage to apply.
 
 ```diff
   .theme-dark {
