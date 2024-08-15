@@ -26,10 +26,10 @@ Or, manually download this repo in your `.obsidian/themes`
 
 # Icons
 
-<div style="display: flex;">
-	<img src="icons/light.png" alt="Ayu Light icon" width="256"/>
-	<img src="icons/mirage.png" alt="Ayu Mirage icon" width="256"/>
-	<img src="icons/dark.png" alt="Ayu Dark icon" width="256"/>
+<div style="display: flex; gap: 1rem">
+	<img src="icons/light.png" alt="Ayu Light icon" width="128"/>
+	<img src="icons/mirage.png" alt="Ayu Mirage icon" width="128"/>
+	<img src="icons/dark.png" alt="Ayu Dark icon" width="128"/>
 </div>
 
 Change your Obsidian app icon in **Options**-**Appearance**-**Advanced**-**Custom app icon**
