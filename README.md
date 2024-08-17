@@ -32,12 +32,6 @@ Change your Obsidian app icon in **Options**-**Appearance**-**Advanced**-**Custo
 
 # Colours
 
-<div style="display: flex;">
-	<img src="images/light.png" alt="Ayu Obsidian Light screenshot" width="256" />
-	<img src="images/mirage.png" alt="Ayu Obsidian Mirage screenshot" width="256" />
-	<img src="images/dark.png" alt="Ayu Obsidian Dark screenshot" width="256" />
-</div>
-
 Colours are applied based on Obsidian semantics and appearance on code editors.
 Headings and indicators have warmer colours, while body emphasis are cooler.
 
