@@ -63,7 +63,7 @@ Fonts are included in the `theme.css` as data URLs.
 
 - [Lora](http://cyreal.org/fonts/lora/) by [Cyreal](http://cyreal.org/) for markdown editor text
 - [Inter](https://rsms.me/inter/) by [Rasmus](https://rsms.me/) for app interface
-- [Fira Code](https://firacode.org/) by [Niki](https://tonsky.me/) for fixed-width text
+- [Monaspace Neon](https://monaspace.githubnext.com) by [GitHub Next](https://githubnext.com/) and [Lettermatic](https://lettermatic.com/) for monospaced text
 
 # Versioning
 
