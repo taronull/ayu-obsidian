@@ -1,7 +1,9 @@
 body {
+  --default-font: Songti SC, Nanum Myeongjo, Arial Unicode MS;
   --font-text-theme: Lora;
   --font-interface-theme: Inter;
   --font-monospace-theme: Monaspace Neon;
+  font-synthesis: none;
 }
 
 .theme-dark {
@@ -213,7 +215,6 @@ body {
   --icon-color-focused: var(--color-accent-1);
   --italic-color: var(--color-purple);
   --bold-color: var(--color-green);
-  --bold-modifier: 100;
   /*
     Components
     */
@@ -259,10 +260,10 @@ body {
   --h6-size: 0.8em;
   --h2-style: italic;
   --h5-style: italic;
-  --h1-weight: 500;
-  --h2-weight: 500;
-  --h3-weight: 500;
-  --h4-weight: 500;
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 600;
+  --h4-weight: 600;
   --h5-weight: 600;
   --h6-weight: 700;
   --inline-title-size: 2.4em;
