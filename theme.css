@@ -431,19 +431,19 @@ CJK support
 
 @font-face {
   font-family: Heiti;
-  src: local(Heiti SC Light);
+  src: local(PingFang SC Regular);
 }
 
 @font-face {
   font-family: Heiti;
   font-style: italic;
-  src: local(Heiti SC Medium);
+  src: local(PingFang SC Semibold);
 }
 
 @font-face {
   font-family: Heiti;
   font-weight: 500;
-  src: local(Heiti SC Medium);
+  src: local(PingFang SC Semibold);
 }
 
 @font-face {
@@ -465,19 +465,19 @@ CJK support
 
 @font-face {
   font-family: Dotum;
-  src: local(NanumGothic Regular);
+  src: local(Apple SD Gothic Neo Regular);
 }
 
 @font-face {
   font-family: Dotum;
   font-style: italic;
-  src: local(NanumGothic Bold);
+  src: local(Apple SD Gothic Neo SemiBold);
 }
 
 @font-face {
   font-family: Dotum;
   font-weight: 500;
-  src: local(NanumGothic Bold);
+  src: local(Apple SD Gothic Neo SemiBold);
 }
 
 /*
