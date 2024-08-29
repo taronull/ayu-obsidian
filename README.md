@@ -18,7 +18,7 @@
 5. Filter for ***Ayu Light & Mirage***
 6. Click _Install and use_
 
-Or, manually download this repo in your `.obsidian/themes`
+Or, manually download this repo in your `.obsidian/themes` and rename it `Ayu Light & Mirage`
 
 # Icons
 
