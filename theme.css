@@ -1,8 +1,8 @@
 body {
-  --default-font: Songti, Batang;
-  --font-text-theme: Lora;
-  --font-interface-theme: Inter;
+  --font-text-theme: Lora, Songti, Batang;
+  --font-interface-theme: Inter, Heiti, Dotum;
   --font-monospace-theme: Monaspace Neon;
+  --font-mermaid: var(--font-interface-theme);
   font-synthesis: none;
 }
 
@@ -202,8 +202,8 @@ body {
   --text-on-accent: rgb(var(--ui-bg));
   --text-on-accent-inverted: rgb(var(--ui-fg));
   --text-success: rgb(var(--vcs-added));
-  --text-warning: rgb(var(--vcs-modified));
-  --text-error: rgb(var(--vcs-removed));
+  --text-warning: rgb(var(--common-accent));
+  --text-error: rgb(var(--common-error));
   --text-accent: rgb(var(--common-accent));
   --text-accent-hover: rgb(var(--common-accent) / 0.8);
   --text-selection: rgb(var(--editor-selection-active));
@@ -219,16 +219,12 @@ body {
   /*
   Components
   */
-  --checkbox-color: rgb(var(--syntax-operator));
-  --checkbox-color-hover: rgb(var(--syntax-operator) / 0.8);
   --checklist-done-decoration: none;
-  --checklist-done-color: rgb(var(--syntax-comment));
   --indentation-guide-color: rgb(var(--editor-guide-normal));
   --indentation-guide-color-active: rgb(var(--editor-guide-active));
   /*
   Editor
   */
-  --blockquote-border-color: rgb(var(--syntax-operator));
   --callout-quote: var(--editor-fg);
   --code-normal: rgb(var(--editor-fg));
   --code-comment: rgb(var(--syntax-comment));
@@ -271,6 +267,11 @@ body {
   --inline-title-weight: bold;
   --inline-title-style: italic;
   --inline-title-color: rgb(var(--syntax-entity));
+  --link-color: rgb(var(--vcs-modified));
+  --link-color-hover: rgb(var(--vcs-modified) / 0.8);
+  --link-unresolved-color: rgb(var(--vcs-modified));
+  --link-external-color: rgb(var(--vcs-modified));
+  --link-external-color-hover: rgb(var(--vcs-modified) / 0.8);
   --link-decoration: none;
   --link-decoration-hover: none;
   --link-external-decoration: none;
@@ -353,6 +354,10 @@ del,
   text-decoration: none;
 }
 
+.footnote-ref {
+  font: var(--font-smallest) var(--font-interface-theme);
+}
+
 .callout {
   /* Overrides legacy syntax. */
   background-color: rgb(var(--callout-color) / 0.1);
@@ -360,7 +365,7 @@ del,
 
 .notice,
 .tooltip {
-  color: var(--fill);
+  color: var(--text-on-accent);
   background-color: var(--background-modifier-message);
 
   &.mod-success {
@@ -425,20 +430,54 @@ CJK support
 }
 
 @font-face {
+  font-family: Heiti;
+  src: local(Heiti SC Light);
+}
+
+@font-face {
+  font-family: Heiti;
+  font-style: italic;
+  src: local(Heiti SC Medium);
+}
+
+@font-face {
+  font-family: Heiti;
+  font-weight: 500;
+  src: local(Heiti SC Medium);
+}
+
+@font-face {
   font-family: Batang;
-  src: local(NanumMyeongjo), local(AppleMyungjo);
+  src: local(NanumMyeongjo);
 }
 
 @font-face {
   font-family: Batang;
   font-style: italic;
-  src: local(NanumMyeongjo Bold), local(AppleMyungjo);
+  src: local(NanumMyeongjo Bold);
 }
 
 @font-face {
   font-family: Batang;
   font-weight: 500;
-  src: local(NanumMyeongjo Bold), local(AppleMyungjo);
+  src: local(NanumMyeongjo Bold);
+}
+
+@font-face {
+  font-family: Dotum;
+  src: local(NanumGothic Regular);
+}
+
+@font-face {
+  font-family: Dotum;
+  font-style: italic;
+  src: local(NanumGothic Bold);
+}
+
+@font-face {
+  font-family: Dotum;
+  font-weight: 500;
+  src: local(NanumGothic Bold);
 }
 
 /*
