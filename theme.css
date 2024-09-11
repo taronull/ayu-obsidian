@@ -306,7 +306,12 @@ h6,
 a,
 .HyperMD-header,
 .callout-title-inner {
-  & * {
+  & em,
+  & .cm-em,
+  & strong,
+  & .cm-strong,
+  & code,
+  & .cm-inline-code {
     color: currentColor !important;
   }
 }
