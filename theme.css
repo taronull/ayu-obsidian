@@ -297,6 +297,20 @@ body {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+.HyperMD-header,
+.callout-title-inner {
+  & * {
+    color: currentColor !important;
+  }
+}
+
 h6,
 .cm-header-6 {
   text-transform: uppercase;
